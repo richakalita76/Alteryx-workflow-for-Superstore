@@ -1,0 +1,752 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>P1-SuperStoreUS-2015 (2).xlsx
+Query=`Order Weekly$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="Double" />
+            <Field name="Order Priority" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="V_String" />
+            <Field name="Discount" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="Double" />
+            <Field name="Unit Price" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="Double" />
+            <Field name="Shipping Cost" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="Double" />
+            <Field name="Customer ID" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="Double" />
+            <Field name="Customer Name" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="V_String" />
+            <Field name="Ship Mode" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="V_String" />
+            <Field name="Customer Segment" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="V_String" />
+            <Field name="Product Category" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="V_String" />
+            <Field name="Product Sub-Category" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="V_String" />
+            <Field name="Product Container" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="V_String" />
+            <Field name="Product Name" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="V_WString" />
+            <Field name="Product Base Margin" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="Double" />
+            <Field name="Country" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="V_String" />
+            <Field name="Region" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="V_String" />
+            <Field name="State or Province" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="Double" />
+            <Field name="Order Date" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="Date" />
+            <Field name="Profit" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="Double" />
+            <Field name="Quantity ordered new" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="Double" />
+            <Field name="Sales" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="Double" />
+            <Field name="Order ID" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Order Weekly$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>P1-SuperStoreUS-2015 (2).xlsx
+Query=`Orders Historical$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="Double" />
+            <Field name="Order Priority" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="V_String" />
+            <Field name="Discount" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="Double" />
+            <Field name="Unit Price" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="Double" />
+            <Field name="Shipping Cost" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="Double" />
+            <Field name="Customer ID" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="Double" />
+            <Field name="Customer Name" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="V_String" />
+            <Field name="Ship Mode" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="V_String" />
+            <Field name="Customer Segment" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="V_String" />
+            <Field name="Product Category" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="V_String" />
+            <Field name="Product Sub-Category" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="V_String" />
+            <Field name="Product Container" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="V_String" />
+            <Field name="Product Name" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="V_WString" />
+            <Field name="Product Base Margin" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="Double" />
+            <Field name="Country" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="V_String" />
+            <Field name="Region" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="V_String" />
+            <Field name="State or Province" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="Double" />
+            <Field name="Order Date" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="Date" />
+            <Field name="Profit" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="Double" />
+            <Field name="Quantity ordered new" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="Double" />
+            <Field name="Sales" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="Double" />
+            <Field name="Order ID" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Orders Historical$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Returns$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>P1-SuperStoreUS-2015 (2).xlsx
+Query=`Returns$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order ID" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Returns$`" type="Double" />
+            <Field name="Status" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Returns$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Users$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>P1-SuperStoreUS-2015 (2).xlsx
+Query=`Users$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Region" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Users$`" type="V_String" />
+            <Field name="Manager" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Users$`" type="V_String" />
+            <Field name="Method" size="255" source="File: C:\Users\RICHA\Downloads\P1-SuperStoreUS-2015 (2).xlsx|||`Users$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="294" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="498" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="Region" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="Region" />
+            </JoinInfo>
+            <JoinInfo connection="#3">
+              <Field field="Region" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#2_Region" selected="True" rename="Input_#2_Region" />
+                <SelectField field="Input_#3_Region" selected="True" rename="Input_#3_Region" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="774" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Order ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Order ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Order ID" selected="True" rename="Right_Order ID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1206" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Order ID" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Order ID - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1002" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1398" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Region</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-03-12 20:37:22</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>West</Operand>
+              <StartDate>2021-03-12 20:37:22</StartDate>
+              <EndDate>2021-03-12 20:37:22</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Region] = "West"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Region" />
+            <Field name="Population" />
+          </Fields>
+          <Data>
+            <r>
+              <c>North</c>
+              <c>1000</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2000</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>3000</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>4000</c>
+            </r>
+            <r>
+              <c />
+              <c />
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1554" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sales]/[Profit]" field="S/P" size="4" type="Float" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[S/P = [Sales]/[Profit]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1566" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sales]/[Profit]" field="S/P" size="4" type="Float" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[S/P = [Sales]/[Profit]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1722" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1746" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1842" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>Profit</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-03-12 20:51:20</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2021-03-12 20:51:20</StartDate>
+              <EndDate>2021-03-12 20:51:20</EndDate>
+              <Operand>0</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Profit] &gt; 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1842" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>Profit</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-03-12 20:52:08</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2021-03-12 20:52:08</StartDate>
+              <EndDate>2021-03-12 20:52:08</EndDate>
+              <Operand>0</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Profit] &gt; 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1926" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\RICHA\Desktop\alteryx op\Western Profit.xlsx|||Profit</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Western Profit.xlsx
+Query=Profit</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2034" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\RICHA\Desktop\alteryx op\Western Loss.xlsx|||Loss</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Western Loss.xlsx
+Query=Loss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1926" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\RICHA\Desktop\alteryx op\Non Western Profit.xlsx|||Profit</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Non Western Profit.xlsx
+Query=Profit</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1998" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\RICHA\Desktop\alteryx op\Non Western Loss.xlsx|||Loss</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Non Western Loss.xlsx
+Query=Loss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Left" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Left" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="7" Connection="Right" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="False" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="True" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="False" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="False" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>big practice</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
